@@ -34,7 +34,7 @@ if (isset($_SESSION['user'])) {
                                 <form class="form-signin" method="POST" action="login.php">
                                     <div class="form-label-group">
                                         <input type="email" id="inputEmail" name="username" class="form-control" placeholder="Email address" required autofocus>
-                                        <label for="inputEmail">Email address</label>
+                                        <label for="inputEmail">Email Address</label>
                                     </div>
 
                                     <div class="form-label-group">
@@ -44,7 +44,7 @@ if (isset($_SESSION['user'])) {
 
                                     <div class="custom-control custom-checkbox mb-3">
                                         <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Remember password</label>
+                                        <label class="custom-control-label" for="customCheck1">Remember Password</label>
                                     </div>
                                     <button class="btn btn-lg btn-primary btn-block text-uppercase" name="login" type="submit">Sign
                                         in</button>
